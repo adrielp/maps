@@ -15,6 +15,7 @@ build:
 		--rm-dist \
 		--skip-validate \
 		--single-target \
+		--snapshot \
 		--output dist/$(BIN_NAME)
 
 .PHONY: install
