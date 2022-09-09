@@ -4,7 +4,9 @@ before:
   hooks:
     - go generate ./...
 builds:
-  - env:
+  - id: mapscli
+    binary: mapscli
+    env:
       - CGO_ENABLED=0
     goos:
       - linux
